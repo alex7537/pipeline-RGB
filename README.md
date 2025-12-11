@@ -10,11 +10,15 @@ conda activate foundationpose
 
 只做一次：
 固定两台相机 → 水平左右摆好，不再移动
+
 python save_calib_images_dual_rgb.py 拍 15–25 组棋盘格
+
 python stereo_calibrate_rgb.py → 得到 stereo_calib_rgb.npz
+
 python make_fs_intrinsic_from_npz.py → 得到 assets/K_d435.txt
 
 每次想测试 FS 时：
+
 cd /home/match/foundationstereo-industrial-6dpose/RGB-pipeline \
 conda activate foundationpose 
 
