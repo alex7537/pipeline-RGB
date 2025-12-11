@@ -5,7 +5,7 @@
 → 运行时：采集 + rectified
 → 输入 FS 
 
-cd /home/match/foundationstereo-industrial-6dpose/RGB-pipeline
+cd /home/match/foundationstereo-industrial-6dpose/RGB-pipeline \
 conda activate foundationpose
 只做一次：
 固定两台相机 → 水平左右摆好，不再移动
