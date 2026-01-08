@@ -29,10 +29,5 @@ scripts/run_demo.py + K_d435.txt → 观察深度/视差输出是否合理
 cd ~/FS/FoundationStereo \
 conda activate foundation_stereo 
 
-python scripts/run_demo.py \
-  --left_file ./shared_fs_test/left_rect.png \
-  --right_file ./shared_fs_test/right_rect.png \
-  --ckpt_dir ./pretrained_models/model_best_bp2.pth \
-  --out_dir ./outputs_test \
-  --intrinsic ./assets/K_d435_2RGB.txt
+python scripts/run_demo.py   --left_file ./shared_fs_test/left_rect.png   --right_file ./shared_fs_test/right_rect.png   --ckpt_dir ./pretrained_models/model_best_bp2.pth   --out_dir ./outputs_test   --intrinsic ./assets/K_d435_2RGB.txt
 
